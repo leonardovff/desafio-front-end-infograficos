@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+@font-face {
+  font-family: 'Georgia';
+  src: url('Georgia.eot');
+  src: url('Georgia.eot?#iefix') format('embedded-opentype'),
+      url('Georgia.woff2') format('woff2'),
+      url('Georgia.woff') format('woff'),
+      url('Georgia.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}

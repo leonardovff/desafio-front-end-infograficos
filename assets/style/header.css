@@ -1,0 +1,50 @@
+header {
+  border-bottom: 4px solid #b12c2f; 
+}
+nav {
+  padding: 52px 0 18px;
+  display: flex;
+  width: 72%;
+  margin: 0 auto;
+  flex-direction: row;
+  justify-items: flex-start;
+  align-items: flex-end;
+}
+#menuTopo {
+  padding-bottom: 16px;
+  margin-left: auto;
+  font-family: "Georgia";
+}
+#menuTopo > li {
+  float: left;
+  margin-left: 40px;
+  list-style: none;
+}
+#menuTopo li a {
+  color: #000;
+  text-decoration: none;
+  font-size: 1.71em;
+}
+#menuTopo > li:first-child {
+  font-weight: bold;
+}
+#menuTopo > li:first-child a{
+  color: #b02e2e;
+}
+.menuTopo-submenu {
+  position: relative;
+  margin-right: 13px;
+}
+.menuTopo-submenu:after {
+  position: absolute;
+  left: 110%;
+  top: 34%;
+  content: "";
+  font-weight: bold; 
+  border-left: 5.5px solid transparent;
+  border-right: 5.5px solid transparent;
+  border-top: 10px solid #000;
+}
+nav img {
+  width: 340px;
+}

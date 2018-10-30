@@ -1,0 +1,85 @@
+#banner{
+  width: 100%;
+  overflow: hidden;
+  position: relative; 
+}
+#bannerControl{
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 5%;
+  align-items: center;
+  width: 89%;
+  height: 100%;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.bannerControl-actions{
+  width: 50px;
+  height: 72px;
+  background: #b22d30;
+  position: relative;
+}
+.bannerControl-actions:after,
+.bannerControl-actions:before{
+  content: "";
+  position: absolute;
+}
+.bannerControl-actions:after{
+  content: "";
+  width: 11px; 
+  height: 20px;
+  position: absolute;
+  left: 0%;
+  top: 40%;
+  background: #b22d30;
+}
+.bannerControl-actions:before{
+  width: 25px;
+  height: 25px;
+  left: 39%;
+  top: 25%;
+  border: 6px solid white;
+  border-color: white white transparent transparent;
+  transform: rotate(-147deg) skew(-20deg);
+}
+.bannerControl-actions:last-child:before{
+  transform: rotate(32deg) skew(-20deg);
+  left: -14%;
+}
+.bannerControl-actions:last-child:after{
+  right: 0px;
+  left: auto;
+}
+
+.bannerControl-page{
+  margin-top: auto;
+  padding-bottom: 37px;
+}
+.bannerControl-page > li {
+  float: left;
+  list-style: none;
+  margin-right: 14px;
+}
+.bannerControl-page > li:last-child {
+  margin-right: 0;
+}
+
+.bannerControl-page > li button{
+  width: 21px;
+  height: 21px;
+  border: 3px solid black;
+  background: white;
+}
+li.bannerControl-page--active > button {
+  border-color: #b12c2f;
+}
+
+#bannerImg { 
+  width: 500%;
+}
+#bannerImg > img{
+  width: 20%;
+  float: left;
+}
