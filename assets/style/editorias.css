@@ -1,7 +1,9 @@
 #editorias{
   width: 72%;
   display: flex;
-  margin: 100px auto 0;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 100px;
   flex-flow: row wrap;
   justify-content: flex-end;
 }

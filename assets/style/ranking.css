@@ -1,0 +1,73 @@
+#ranking{
+  width: 72%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+#ranking .title{
+  width: 100%;
+  margin-bottom: 100px;
+}
+#ranking-chart, #ranking-text{
+  width: 47%;
+}
+#ranking-chart{
+  height: 271px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+#ranking-chart > div:before{
+  writing-mode: horizontal-tb;
+  content: attr(data-porc);
+  width: 100%;
+  position: absolute;
+  transform: rotate(-180deg);
+  bottom: -39px;
+  left: 0;
+  text-align: center;
+  font-family: "Georgia";
+  font-weight: bold;
+  font-size: 1.56em;
+  color: black;
+}
+#ranking-chart > div {
+  margin-right: 40px;
+  display: block;
+  position: relative;
+  writing-mode: vertical-rl;
+  height: 100%;
+  transform: rotate(180deg);
+  background: #000000;
+  color: white;
+  padding: 12px 17px;
+  font-family: "Verdana";
+  font-weight: bold;
+  font-size: 1.3em;
+}
+
+#ranking-chart > div:first-child:before{
+   color:  #b12c2f;
+}
+#ranking-chart > div:first-child{
+  background: #b12c2f;
+}
+
+#ranking-text .title-subtitle{
+  width: 100%;
+  margin-bottom: 30px;
+}
+#ranking-text {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+#ranking-text p{
+  width: 45%;
+  font-family: 'Verdana';
+  font-size: 1.28em;
+  text-align: justify;
+}

@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="assets/style/header.css" />
   <link rel="stylesheet" href="assets/style/banner.css" />
   <link rel="stylesheet" href="assets/style/editorias.css" />
-  <link rel="stylesheet" href="assets/style/grafico.css" />
+  <link rel="stylesheet" href="assets/style/ranking.css" />
 </head>
 <body>
   <header>
@@ -65,7 +65,7 @@
         <img src="https://github.com/leonardovff/desafio-front-end-infograficos/blob/master/Arquivos/Imagens/Slide/2.jpg?raw=true" alt="A senhora fica chamando a Beyoncé e não me chama">
       </div>
     </section>
-    <section id="editorias">
+    <section id="editorias"  class="division">
       <h2 class="title">EDITORIAS</h2>
       <label>Ordernar por:
         <select name="data">
@@ -130,11 +130,38 @@
         </li>
       </ul>
     </section>
-    <section id="grafico">
-      <h2 class="title">
-        EDITORIAS MAIS ACESSADAS
-      </h2>
+    <section id="ranking" class="division">
+      <h2 class="title">EDITORIAS MAIS ACESSADAS</h2>
+      <div id="ranking-chart">
+        <div data-porc="75">
+          Governo
+        </div>
+        <div data-porc="50" style="height: 66%">
+          Carnaval
+        </div>
+        <div data-porc="45" style="height: 60%">
+          Esporte
+        </div>
+        <div data-porc="30" style="height: 40%">
+          Férias
+        </div>
+        <div data-porc="25" style="height: 33%">
+          Outros
+        </div>
+      </div>
+      <div id="ranking-text">
+        <h3 class="title-subtitle">Título aqui</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </p>
+      </div>
     </section>
   </main>
+  <footer>
+    
+  </footer>
 </body>
 </html>

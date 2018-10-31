@@ -27,3 +27,19 @@
 .title-subtitle{
   font-size: 2em;
 }
+
+.division{
+  margin-bottom: 233px;
+  position: relative;
+}
+.division:after { 
+  content: "";
+  width: 115%;
+  height: 3px;
+  bottom: -116px;
+  left: -8%;
+  position: absolute;
+  display: block;
+  background-image: linear-gradient(to right, #9b9da3 70%, rgba(255,255,255,0) 0%);
+  background-size: 12px 2px;
+}
