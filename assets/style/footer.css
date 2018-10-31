@@ -1,0 +1,77 @@
+footer{
+  background: linear-gradient(90deg, white 50%, #b12c2f 50%);
+}
+#contact {
+  display: flex;
+  width: 72%;
+  margin: 0 auto 185px;
+  font-family: "Verdana";
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+#contact > .title{
+  width: 100%;
+  display: inline-block;
+  margin:130px 0 77px;
+}
+#contact > div {
+  width: 50%;
+}
+#contact .title-subtitle{
+  margin-bottom: 29px;
+}
+
+
+#contact > div > p {
+  font-size: 1.28em;
+  margin-bottom: 50px;
+}
+#contact > div > p:last-child {
+  margin-bottom: 0;
+}
+#contact > div:last-child{
+  padding-left: 35px;
+}
+#contact > div:last-child > .title-subtitle{
+  color: white;
+}
+
+#contact > div label {
+  display: block;
+  color: white;
+  font-size: 1.28em;
+}
+#contact > div input,
+#contact > div textarea{
+  width: 100%;
+  min-height: 40px;
+  margin: 7px 0 13px;
+}
+#contact > div textarea{
+  min-height: 114px;
+  margin-bottom: 28px;
+}
+#contact > div button {
+  padding: 13px 19px;
+  float: right;
+  background: black;
+  font-size: 1.40em;
+  font-weight: bold;
+  color: white;
+}
+
+footer > small {
+  display: inline-block;
+  width: 100%;
+  background: black;
+  color: white;
+  font-family: "Verdana";
+  font-weight: bold;
+  padding: 29px 0;
+}
+footer > small > span {
+  display: block;
+  width: 85%;
+  font-size: 1.28em;
+  margin: 0 auto;
+}
