@@ -15,4 +15,15 @@
       url('Georgia.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
+  
+}
+
+/* titles */
+.title, 
+.title-subtitle {
+  font-size: 2.42em;
+  font-family: 'Georgia';
+}
+.title-subtitle{
+  font-size: 2em;
 }
