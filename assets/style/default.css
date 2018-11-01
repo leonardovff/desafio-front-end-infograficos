@@ -27,6 +27,11 @@
   font-size: 2em;
 }
 
+/* link */
+a { 
+  text-decoration: none;
+}
+
 /* division section*/
 .division{
   margin-bottom: 233px;

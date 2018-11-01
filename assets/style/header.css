@@ -10,6 +10,11 @@ nav {
   justify-items: flex-start;
   align-items: flex-end;
 }
+
+nav img {
+  width: 340px;
+}
+
 #menuTopo {
   padding-bottom: 16px;
   margin-left: auto;
@@ -20,15 +25,14 @@ nav {
   margin-left: 40px;
   list-style: none;
 }
-#menuTopo li a {
+#menuTopo > li > a {
   color: #000;
-  text-decoration: none;
   font-size: 1.71em;
 }
 #menuTopo > li:first-child {
   font-weight: bold;
 }
-#menuTopo > li:first-child a{
+#menuTopo > li:first-child > a{
   color: #b02e2e;
 }
 .menuTopo-submenu {
@@ -45,6 +49,36 @@ nav {
   border-right: 5.5px solid transparent;
   border-top: 10px solid #000;
 }
-nav img {
-  width: 340px;
+.menuTopo-submenu ul {
+  background: white;
+  border-bottom: 4px solid #b12c2f;
+  position: absolute;
+  top:100%; 
+  padding-top: 27px;
+  z-index: 200;
+  left: 0%;
+  display: none;
+}
+.menuTopo-submenu:hover ul{
+  display: inline-block;
+}
+
+.menuTopo-submenu li {
+  list-style: none;
+  padding: 0 85px 8px 18px;
+}
+.menuTopo-submenu li {
+  list-style: none;
+  padding: 0 85px 8px 18px;
+}
+.menuTopo-submenu ul li:hover {
+  padding-right: 0;
+}
+.menuTopo-submenu ul a {
+  font-size: 1.28em;
+  color: black;
+  white-space: nowrap;
+}
+.menuTopo-submenu ul a:hover {
+  font-weight: bold;
 }
