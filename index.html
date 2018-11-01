@@ -82,66 +82,17 @@
     <section id="editorias"  class="division">
       <h2 class="title">EDITORIAS</h2>
       <label>Ordernar por:
-        <select name="data">
-          <option>DATA</option>
-          <option>TÍTULO</option>
+        <select name="order">
+          <option value="time">DATA</option>
+          <option value="Título">TÍTULO</option>
         </select>
       </label>
       <label>Filtrar por:
-        <select name="data" id="">
-          <option>EDITORIA</option>
-          <option>Governo</option>
+        <select name="editoria" id="">
+          <option value="" selected>EDITORIA</option>
         </select>
       </label>
       <ul>
-        <li class="editorias-noticia">
-          <time datetime="2017-02-14">20/03/2017</time>
-          <h3>Governo</h3>
-          <img src="https://github.com/leonardovff/desafio-front-end-infograficos/blob/master/Arquivos/Imagens/Not%C3%ADcias/1.jpg?raw=true" alt="notícia">
-          <h4 class="title-subtitle">Votação encerrada</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipsing eit, Sed vestibulum viverra diam ut veneratils</p>
-          <a href="#" title="Link para noticia completa">Saiba mais</a>
-        </li>
-        <li class="editorias-noticia">
-          <time datetime="2017-02-14">20/03/2017</time>
-          <h3>Governo</h3>
-          <img src="https://github.com/leonardovff/desafio-front-end-infograficos/blob/master/Arquivos/Imagens/Not%C3%ADcias/1.jpg?raw=true" alt="notícia">
-          <h4 class="title-subtitle">Votação encerrada</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipsing eit, Sed vestibulum viverra diam ut veneratils</p>
-          <a href="#" title="Link para noticia completa">Saiba mais</a>
-        </li>
-        <li class="editorias-noticia">
-          <time datetime="2017-02-14">20/03/2017</time>
-          <h3>Governo</h3>
-          <img src="https://github.com/leonardovff/desafio-front-end-infograficos/blob/master/Arquivos/Imagens/Not%C3%ADcias/1.jpg?raw=true" alt="notícia">
-          <h4 class="title-subtitle">Votação encerrada</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipsing eit, Sed vestibulum viverra diam ut veneratils</p>
-          <a href="#" title="Link para noticia completa">Saiba mais</a>
-        </li>
-        <li class="editorias-noticia">
-          <time datetime="2017-02-14">20/03/2017</time>
-          <h3>Governo</h3>
-          <img src="https://github.com/leonardovff/desafio-front-end-infograficos/blob/master/Arquivos/Imagens/Not%C3%ADcias/1.jpg?raw=true" alt="notícia">
-          <h4 class="title-subtitle">Votação encerrada</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipsing eit, Sed vestibulum viverra diam ut veneratils</p>
-          <a href="#" title="Link para noticia completa">Saiba mais</a>
-        </li>
-        <li class="editorias-noticia">
-          <time datetime="2017-02-14">20/03/2017</time>
-          <h3>Governo</h3>
-          <img src="https://github.com/leonardovff/desafio-front-end-infograficos/blob/master/Arquivos/Imagens/Not%C3%ADcias/1.jpg?raw=true" alt="notícia">
-          <h4 class="title-subtitle">Votação encerrada</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipsing eit, Sed vestibulum viverra diam ut veneratils</p>
-          <a href="#" title="Link para noticia completa">Saiba mais</a>
-        </li>
-        <li class="editorias-noticia">
-          <time datetime="2017-02-14">20/03/2017</time>
-          <h3>Governo</h3>
-          <img src="https://github.com/leonardovff/desafio-front-end-infograficos/blob/master/Arquivos/Imagens/Not%C3%ADcias/1.jpg?raw=true" alt="notícia">
-          <h4 class="title-subtitle">Votação encerrada</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipsing eit, Sed vestibulum viverra diam ut veneratils</p>
-          <a href="#" title="Link para noticia completa">Saiba mais</a>
-        </li>
       </ul>
     </section>
     <section id="ranking" class="division">
@@ -216,7 +167,7 @@
   </footer>
   <script src="assets/js/app.js"></script>
   <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA45D-bZLHMkTCd1xH_5n_4K_VAkBg9aFE&callback=initMap">
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA45D-bZLHMkTCd1xH_5n_4K_VAkBg9aFE&callback=app.initMap">
     </script>
 </body>
 </html>
