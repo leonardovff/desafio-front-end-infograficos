@@ -19,6 +19,8 @@
   width: 50px;
   height: 72px;
   background: #b22d30;
+  cursor: pointer;
+  outline: none;
   position: relative;
 }
 .bannerControl-actions:after,
@@ -68,6 +70,8 @@
 
 .bannerControl-page > li button{
   width: 21px;
+  cursor: pointer;
+  outline: none;
   height: 21px;
   border: 3px solid black;
   background: white;
@@ -76,10 +80,17 @@ li.bannerControl-page--active > button {
   border-color: #b12c2f;
 }
 
-#bannerImg { 
+#bannerImg {
+  margin-left: 0%;
+  transition: margin-left 1s ease-out 0.1s;
   width: 500%;
 }
-#bannerImg > img{
+#bannerImg > a{
+  display: block;
   width: 20%;
   float: left;
+}
+
+#bannerImg > a img{
+  width: 100%;
 }

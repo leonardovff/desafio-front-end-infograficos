@@ -34,6 +34,7 @@
   justify-content: space-between; 
 }
 .editorias-noticia {
+  display: inline-table;
   width: 308px;
   padding-left: 27px;
   border-left: 4px solid #b12c2f;

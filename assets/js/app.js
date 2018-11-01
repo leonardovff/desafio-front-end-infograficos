@@ -36,7 +36,7 @@ var app = {
       string += `<li class="editorias-noticia">
           <time datetime="${app.convertDataToUs(noticia["Data de publicação"])}">${noticia["Data de publicação"]}</time>
           <h3>${noticia.editoria}</h3>
-          <img src="https://github.com/leonardovff/desafio-front-end-infograficos/blob/master/Arquivos/Imagens/Not%C3%ADcias/${noticia.Foto}?raw=true" alt="notícia">
+          <img src="Arquivos/Imagens/Not%C3%ADcias/${noticia.Foto}?raw=true" alt="notícia">
           <h4 class="title-subtitle">${noticia['Título']}</h4>
           <p>${noticia.Texto}</p>
           <a href="#" title="Link para noticia completa">Saiba mais</a>
@@ -85,7 +85,6 @@ var app = {
     let biggerNumber = data.map(data=>data.acesso).reduce((s,v) => s > v ? s : v,0);
     let template = '';
     data.forEach(editoria => {
-      console.log(parseInt( biggerNumber), editoria.acesso, (100 * editoria.acesso) / biggerNumber);
       template += `<div data-porc="${editoria.acesso}" style="height: ${100 * editoria.acesso / biggerNumber}%">
         ${editoria.editoria}
       </div>`;
@@ -116,4 +115,5 @@ var app = {
     });
   }
 }
+slider.init();
 app.init();

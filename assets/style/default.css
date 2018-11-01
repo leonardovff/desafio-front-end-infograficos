@@ -8,14 +8,21 @@
 
 @font-face {
   font-family: 'Georgia';
-  src: url('Georgia.eot');
-  src: url('Georgia.eot?#iefix') format('embedded-opentype'),
-      url('Georgia.woff2') format('woff2'),
-      url('Georgia.woff') format('woff'),
-      url('Georgia.ttf') format('truetype');
+  src: url('fonts/Georgia.eot');
+  src: url('fonts/Georgia.eot?#iefix') format('embedded-opentype'),
+      url('fonts/Georgia.woff2') format('woff2'),
+      url('fonts/Georgia.woff') format('woff'),
+      url('fonts/Georgia.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
   
+}
+@font-face {
+    font-family: 'Verdana';
+    src: url('fonts/Verdana.woff2') format('woff2'),
+        url('fonts/Verdana.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
 /* titles */
 .title, 
