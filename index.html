@@ -10,6 +10,12 @@
   <link rel="stylesheet" href="assets/style/editorias.css" />
   <link rel="stylesheet" href="assets/style/ranking.css" />
   <link rel="stylesheet" href="assets/style/footer.css" />
+  <style type="text/css">
+    div#map {
+      width: 100%;
+      height: 448px;
+    }
+  </style>
 </head>
 <body>
   <header>
@@ -25,6 +31,13 @@
         </li>
         <li class="menuTopo-submenu">
           <a href="#" title="Brasil">Brasil</a>
+          <ul>
+            <li><a href="#" title="Submenu 01">Submenu 01</a></li>
+            <li><a href="#" title="Submenu 02">Submenu 02</a></li>
+            <li><a href="#" title="Submenu 03">Submenu 03</a></li>
+            <li><a href="#" title="Submenu 04">Submenu 04</a></li>
+            <li><a href="#" title="Submenu 05">Submenu 05</a></li>
+          </ul>
         </li>
         <li>
           <a href="#" title="Mundo">Mundo</a>
@@ -160,6 +173,7 @@
         </p>
       </div>
     </section>
+    <div id="map"></div>
   </main>
   <footer>
     <section id="contact">
@@ -200,5 +214,9 @@
     </section>
     <small><span>© Entrevista | Front-End</span></small>
   </footer>
+  <script src="assets/js/app.js"></script>
+  <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA45D-bZLHMkTCd1xH_5n_4K_VAkBg9aFE&callback=initMap">
+    </script>
 </body>
 </html>

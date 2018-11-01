@@ -17,7 +17,6 @@
   font-style: normal;
   
 }
-
 /* titles */
 .title, 
 .title-subtitle {
@@ -28,6 +27,7 @@
   font-size: 2em;
 }
 
+/* division section*/
 .division{
   margin-bottom: 233px;
   position: relative;
